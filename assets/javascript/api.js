@@ -9,7 +9,7 @@
 
     function displayInfo() {
         var animal = $(this).attr("anim-type");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=NENyRd4WsuYHWvVIW00Shb0dvG4FTFGr&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=NENyRd4WsuYHWvVIW00Shb0dvG4FTFGr&limit=10";
 
     // AJAX to GET info
 
